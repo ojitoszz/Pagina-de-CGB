@@ -202,9 +202,16 @@ border-radius: 25px;
  }
  @media (max-width:576px) {
 
+
     .oficinas {
 
-        font-size: 11px;
+        font-size: 10px;
+
     }
 
+    .oficinas h3,
+    .oficinas p {
+        display: block;
+        margin-right: 0;
+    }
 }

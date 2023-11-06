@@ -92,9 +92,17 @@ span{
 
     @media (max-width:576px) {
 
+ 
         .oficinas {
+
+            font-size: 10px;
     
-            font-size: 11px;
+        }
+    
+        .oficinas h3,
+        .oficinas p {
+            display: block;
+            margin-right: 0;
         }
     
     }   

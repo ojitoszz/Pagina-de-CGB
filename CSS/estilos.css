@@ -249,8 +249,13 @@ p{
     .oficinas {
 
         font-size: 10px;
+
+    }
+
+    .oficinas h3,
+    .oficinas p {
         display: block;
-        margin-right: 0
+        margin-right: 0;
     }
     .galery
     {
