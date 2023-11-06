@@ -1,0 +1,60 @@
+
+.TITLE{
+
+text-align: center;
+color:  #FFC400;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.im{
+border-radius: 30px;
+padding: 10px;
+}
+.vide{
+
+padding: 10px;
+
+}
+
+.icon{
+height: 100px;
+width: 100px;
+left: 40px;
+position: relative;
+top: 20px;
+
+}
+.iconDos{
+
+height: 100px;
+width: 100px;
+left: 40px;
+position: relative;
+top: 20px;
+
+}
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    display: block; 
+    margin-bottom: 10px; 
+  }
+span{
+color:#FFC400 ;
+}
+
+
+.pa{
+position: relative;
+bottom: 250px;
+left: 180px;
+}
+
+.lil{
+
+    position: relative;
+}
