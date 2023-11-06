@@ -244,3 +244,38 @@ p{
     text-align: justify;
 }
 
+@media (max-width:576px) {
+
+    .oficinas {
+
+        font-size: 11px;
+    }
+    .galery
+    {
+        position: unset;
+        padding-top: 1px;
+        height: 200px;
+        width: 95%;
+        margin: 40px auto;
+        display: flex;
+    }
+    .galeri__img
+    {
+        width: 80px;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: flex .5s;
+        flex: 1;
+        display: grid;
+        border-radius: 10px;
+        
+        --message1: 'Seguridad Social para todos';
+        --message2: '¿Por qué CGB?';
+        --message3: 'Trabajo Conjunto';
+    
+    
+        --clip: circle(0 at center);
+        --transition: clip-path .2s;
+    }
+}

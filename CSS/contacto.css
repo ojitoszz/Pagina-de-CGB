@@ -89,3 +89,12 @@ span{
     border: solid 2px;
     opacity: 100;
     }
+
+    @media (max-width:576px) {
+
+        .oficinas {
+    
+            font-size: 11px;
+        }
+    
+    }   

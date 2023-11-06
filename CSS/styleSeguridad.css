@@ -30,7 +30,7 @@ height: 100px;
 width: 100px;
 left: 40px;
 position: relative;
-top: 20px;
+top: 80px;
 
 }
 ul {
@@ -48,13 +48,29 @@ color:#FFC400 ;
 }
 
 
-.pa{
+.paa{
 position: relative;
 bottom: 250px;
 left: 180px;
+
 }
 
 .lil{
 
     position: relative;
+}
+.recipiente{
+
+height: 680px;
+
+
+}
+
+@media (max-width:576px) {
+
+  .oficinas {
+
+      font-size: 11px;
+  }
+
 }

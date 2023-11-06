@@ -99,3 +99,12 @@ color: black;
     justify-content: space-around;
     align-items: center; 
 }
+
+@media (max-width:576px) {
+
+    .oficinas {
+
+        font-size: 11px;
+    }
+
+}

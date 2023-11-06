@@ -200,3 +200,11 @@ font-size: 20px;
 border-radius: 25px;
 
  }
+ @media (max-width:576px) {
+
+    .oficinas {
+
+        font-size: 11px;
+    }
+
+}
