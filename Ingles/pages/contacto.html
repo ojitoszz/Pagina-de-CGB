@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../imgs/favicon.png">
+    <title>CGB Business Consulting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/contacto.css">
+    
+</head>
+<body>
+
+
+    <!--container no ocupa todo el ancho de la pagina
+    - container fluid si
+- breakpoint:ancho del 100% hasta el punto de interrupcion especificado -->
+
+
+<div class="cointener-fluid">
+        <div class="row">
+            <div class="fondo">
+                    <div>
+                        <a class="navbar-brand" href="../index.html">
+                        <img class="mt-4 ms-4 m-2" src="../imgs/Logo cgb.png" alt="Logo" width="300" height="70">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+        <section class="row">
+            <nav class="navbar navbar-expand-lg bg-white-tertiary border border-2 border-warning d-flex justify-content-between">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav col lg">
+                            <li class="nav-item lg d-flex align-items-center">
+                                <a class="ps-4 nav-link" href="../index.html">HOME</a>
+                            </li>
+                            <li class="nav-item lg d-flex align-items-center">
+                                <a class="ps-4 nav-link " href="nosotros.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item lg d-flex align-items-center">
+                                <div class="menu">
+                                    <button class="dropdown-btn"><a class="servici" href="servici.html" >SERVICES</a></button>
+                                    <div class="dropdown-content">
+                                        <a href="impuestos.html">TAX SERVICES</a>
+                                        <a href="legal.html">LEGAL SERVICES</a>
+                                        <a href="contable.html">ACCOUNTING SERVICES</a>
+                                        <a href="Seguridad.html">SOCIAL SECURITY</a>
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                        
+                            <li class="nav-item lg d-flex align-items-center">
+                                <a class="ps-4 nav-link" href="contacto.html">CONTACT US</a>
+                            </li>
+                            <li class="nav-item lg d-flex align-items-center">
+                                <a class="ps-4 d-flex nav-link" href="aviso.html">PRIVACY POLICY</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+                
+</div><br>
+
+<section id="who-we-are" class="page-section border-tb">
+    <div class="container bg-cont">
+        <div>
+            <h4>CONTACT US</h4><br>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <p><strong>Contact Information</strong><br><br>
+
+<a  href="mailto:administracioncts@ctsasociados.com?Subject=Aquí%20el%20asunto%20del%20mail"><img src="../imgs/mail.png" width="50" height="50"></a>administracioncts@ctsasociados.com<br>
+<a class="text-decoration-none text-dark" href="https://api.whatsapp.com/send?phone=525518637999&text=Administracion CTS Consultores"><img src="../imgs/whatsapp.png" width="50" height="50"/>(55)18637999</a><br>
+                </p>
+            </div>
+
+
+            <div class="col-md-5">
+                <p><strong>SERVICES</strong><br>
+
+               
+                <a href="mailto:enrique.carrillo@ctsasociados.com?Subject=Aquí%20el%20asunto%20del%20mail"><img src="../imgs/mail.png" width="50" height="50"></a>enrique.carrillo@ctsasociados.com<br>
+                <a class="text-decoration-none text-dark" href="https://api.whatsapp.com/send?phone=525518766423&text=Servicios CTS Consultores"><img src="../imgs/whatsapp.png" width="50" height="50"/>(55) 18766423</a>
+                </p>
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p><strong>Your opinion is important.</strong></p>
+                <p class="form-message"></p>
+                <div class="contact-form">
+                    <!-- Form Begins -->
+                    <!--role="form"
+                    class="contact"
+                -->
+
+                 <!-- codigo correo-->
+
+                    <form  id="contact form"action="#" method="post"
+                     name="contact-form" class="contact-form">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- Field 1 -->
+                                <div class="form-group">
+                                    <input type="text" id="nombre" name="nombre" class="form-control name-field"
+                                    placeholder="Name" required="required"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Field 2 -->
+                                <div class=" form-group">
+                                    <input type="email" name="email" class="mail-field form-control"
+                                    placeholder="Email" id="email" required="required"/>
+                                </div>
+                            </div>
+                        </div><br>
+                        <!-- Field 3 -->
+                        <div class="form-group">
+                            <input type="text" name="phone" class="phone-field form-control" placeholder="Number phone" id="phone"required="required"/>
+                        </div><br>
+                        <!-- Field 4 -->
+                        <div class="form-group">
+                            <textarea name="mensaje" class="form-control" placeholder="Please leave your message here" required="required" id="message"
+                            rows="8"></textarea><br>
+                        </div>
+
+
+                        <!-- Button -->
+                        <input  class="rounded border-0 p-2 bg-warning" type="submit" value="Submit">
+                    </form>
+
+                    <!-- Form Ends -->
+                </div>
+
+                <p>&nbsp;</p>
+                <p>Thank you for your interest in us, also follow us on </p>
+
+
+
+                <div class="row">
+                    <div  align ="center">
+                    <a href="https://www.facebook.com/people/CGB-Bussines-Consulting/61552994202910/"><img src="../imgs/fc.png" width="55" height="55"/></a>
+                
+                              <!--      <a href="https://twitter.com/CTSCONSULTORES"><img src="../imgs/x.png" width="55" height="55"/></a>-->
+                                   </div>
+                               </div>
+                
+                            <footer id="footer">
+                
+                                <hr  class="border-warning hr"/>
+                                <div class="oficinas">
+                                    <h3>Office location</h3> 
+                                
+                                <p><span class="punto">• </span> Houston</p>
+                                <p><span class="punto">• </span> CDMX</p>
+                                <p><span class="punto">• </span>  Queretaro</p>
+                                <p><span class="punto">• </span> Monterrey</p>
+                                <p><span class="punto">• </span>  Guadalajara</p>
+                                
+                                
+                                
+                                
+                                        </div>          
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row text-right">
+                    <div class="col-md-12">&copy; 2023 CGB Bussiness Consulting</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

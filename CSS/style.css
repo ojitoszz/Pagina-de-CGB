@@ -1,0 +1,105 @@
+/*body {
+    background: linear-gradient(to bottom,#853400,#a75000,#c96c00)
+}
+*/
+.fondo{
+    background-image:url(../imgs/bg.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+.marg{
+
+    margin: 30px;
+    padding: 10px;
+}
+h5,p,a{
+
+
+color: #0d2449;
+font-weight: bold;
+
+}
+
+h1{
+    color: #0d2449;
+}
+.size{
+
+    width: 100px;
+    height: 100px;
+
+    margin: 10px;
+}
+
+
+.palomita{
+
+
+    height: 30px;
+    width: 30px;
+}
+
+
+.contenedor{
+
+padding: 30px;
+margin: 10px;
+
+
+
+}
+
+.titulo{
+    text-align: center;
+}
+.table{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.mi-modal {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; /* Fondo blanco */
+    border: 2px solid #ddd; /* Borde gris claro */
+    padding: 20px;
+    border-radius: 10px; /* Esquinas redondeadas */
+  }
+
+  .titulo {
+    text-align: center;
+  }
+
+  
+  .form-select,
+  .btn {
+    margin-bottom: 10px;
+  }
+
+  .tarjeta {
+    background: linear-gradient(to bottom, #ff9800, #ffc548, #ffe269);
+    transition: background 0.3s ease; 
+}
+
+.tarjeta:hover {
+    background: linear-gradient(to bottom, #ffc548, #ff9800, #ffe269);
+   
+}
+
+  .titu{
+color: #fff;
+
+  }
+
+ .texto{
+    color: #f5f5f1;
+ } 
+ .boton{
+color: darkblue;
+font-size: 14px;
+ }

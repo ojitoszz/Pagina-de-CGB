@@ -1,0 +1,91 @@
+
+.TITLE{
+
+text-align: center;
+color:  #FFC400;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.im{
+border-radius: 30px;
+padding: 10px;
+}
+.vide{
+
+padding: 10px;
+
+}
+
+.icon{
+height: 100px;
+width: 100px;
+left: 40px;
+position: relative;
+top: 20px;
+
+}
+.iconDos{
+
+height: 100px;
+width: 100px;
+left: 40px;
+position: relative;
+top: 80px;
+
+}
+ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    display: block; 
+    margin-bottom: 10px; 
+  }
+span{
+color:#FFC400 ;
+}
+
+
+.paa{
+position: relative;
+bottom: 250px;
+left: 180px;
+
+}
+
+.lil{
+
+    position: relative;
+}
+.recipiente{
+
+height: 680px;
+
+
+}
+
+@media (max-width:576px) {
+
+  .oficinas {
+
+    font-size: 10px;
+
+}
+
+.oficinas h3,
+.oficinas p {
+    display: block;
+    margin-right: 0;
+}
+
+
+
+.paa p {
+  white-space: nowrap;
+}
+.paa {
+  max-width: 80%;
+}
+ }

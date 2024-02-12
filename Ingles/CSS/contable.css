@@ -1,0 +1,78 @@
+.fondo{
+    background-image:url(../imgs/bg.jpg);
+    background-position: left;
+    background-repeat: no repeat;
+    background-size: cover;
+    
+
+}
+
+
+.copyright{
+    text-align: right;
+}
+
+.link{
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.copyright{
+    text-align: right;
+}
+
+/* Estilos para el botón del menú */
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #ffff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 380px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    line-height: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s ;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffff;
+    color: #FFC400;
+}
+
+/* Mostrar el menú desplegable al pasar el ratón sobre el botón */
+.menu:hover .dropdown-content {
+    display: block;
+}
+.servici{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+    padding : 10px;
+    margin: 8px;
+
+}
+
+.servici:hover{
+    color: #FFC400;
+    transition:0.5s;
+}

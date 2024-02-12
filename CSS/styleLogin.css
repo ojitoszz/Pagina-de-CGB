@@ -1,0 +1,18 @@
+.fondo{
+    background-image:url(../imgs/bg.jpg);
+    background-position: left;
+    background-repeat: no repeat;
+    background-size: cover;
+    
+
+}
+
+body{ 
+    background: #ffff;
+    background: linear-gradient(to right, #FFC400);
+}
+.bg{
+    background-image: url(../imgs/Logo\ cgb.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}

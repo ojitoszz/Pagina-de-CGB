@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cargaarchivos-409500",
+  "private_key_id": "3f79d97ea0fc58990235b486faa3b32310046275",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCttQDXCWiRLyDW\nzNI3E5oyeIhp7l9dlD6SUQxgj7iqnv9v5jWHAXo0tXnF/cuR/vL7wROgg2NRs6C9\n99tU/x4uLIAX9gOMmDhWuUTWybZSQfAIpxQCf4R42osdKam3nfLRsByZdc8tVkVh\nbe6yXTdByK/KvbHQ3+7se0OMahxTMxEofdv6Hszt3EyPUwnmo9gGsoWHnp/sXse9\nKkG8ZzC6jaa43uFZ9RLEMxFHnTv55uSgF+HwpOeZ1+zxndufHuQZCeO155h6liVH\nbQfMI0zhWTatec8KfOqe0yrysDWtTqJwPgZGZU+RgbB6u5l/17FIAtjabyWI6Pmh\njJlPi20VAgMBAAECggEAArybk5SJ1Xt5qxvkVhvwa5bg9bk6pUdSxh2Ax55I25qD\njeHn9fzUPN44rxCMTy95YErVHe4FEYAx7ogBsOYx8WYofFpKTZ/2MjRjtpgythkP\nlXm3ErlnEBn69PqqhzGG7qStAeAVBape091WdnjwbnbDgXa/54IGFvf8VDF56285\nwZAa2g+tJezp1NuXj6aNlmbtF50YoPDIYDbUz0P/DkQdxAQfgkS9Bpsvv8Z4lIGO\nzBek1sdsTmG0kZi6RklMLRfxCcDCHO98PhQ/hp55N5TINwk86gLFddGzMro67T3p\ndGECBoB1Ps5365R93bv5EeIDsBbx70q1eW1eawmQAQKBgQDXj0YI+aMDx2sks8mv\nzqswBK1e1LD8Lh0BmcN1iQ/pJQVSxJaJMyZ+gCfYhb5lr4QeidI7jDJN+8g+7Fge\nlEWjIG8qRb3Qs7Hiorbq9y93tWJUTeVgu4C8n1hP557yRHXbOZPvFYoMjwxZXHzO\nNPaglTrc3lVAFk0NRpK+NBwMjQKBgQDOS6puoU+vKo8ZqparZ8cX1lKQ2Jm+rR0V\nfpLGdR/k6FD7MbLXn++MKfENDDqmWIiQ+9DKfGH3pjlDJwAmiwVWZRIyJFiOsiG4\nZ3+yu4f49bd2t0kjMGKobhnxN97NuOdACLLRGPfSAHrQIYPbZtpafHZ4jdQa6Nzb\ndk3cdgS0qQKBgQCPh/EETOUEwSZQm/4xuBU4tgSS3mCyqinaRP5nJsqXXXU79Xaf\nCJYbKU5e2D89Ci+Y/gAkcmeUkZB2hXzvb58mzZP3u9R2QRCzbdEKh2jt9rLwm6We\nUXuZHSj6m6m0e21WefJNAjSXxDBe2DyqOY32wyccplZxg+fubQ2M5LnAiQKBgQCU\nmAANa/gfrkIhNLUOhdPsoZ4bY0lrBPrcDq3ecWMl2QjrxuKRWkyL43IT+ekNBNxp\nwlikYW+XmI3Khv8exCh2EJtIrtFzB3Auia57qYTJmQQraN4vkJyfwZ7CF4JPII7B\nmwJiht+KznmoDVwS30UMxHX5Y/+R2oWrNs3irMe68QKBgQC5mnFN1AshhVja+5iE\nmgAhQmfe7otvPW7q4gXIcRuC2fWnP8JY7rbTBwMn29MISPlMcgL3lCMsM1SyNiph\nxjJ4ucvp7Jen3+oKVECVrTlu6dcLyt8WpT4ABvM0B7vtHP3grPeJsOxmVrsqNSV0\nxEBR6/4EzI3mPdeZsI9I9BlUiQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ctsasociados@cargaarchivos-409500.iam.gserviceaccount.com",
+  "client_id": "108359206217458315699",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ctsasociados%40cargaarchivos-409500.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
